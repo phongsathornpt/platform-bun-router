@@ -2,16 +2,16 @@
   "lockfileVersion": 1,
   "workspaces": {
     "": {
-      "name": "bun-router-adapter",
+      "name": "@thorn/platform-bun-router",
       "dependencies": {
         "@nestjs/common": "^11.1.3",
         "@nestjs/core": "^11.1.3",
       },
       "devDependencies": {
-        "@types/bun": "latest",
+        "@types/bun": "1.2.18",
       },
       "peerDependencies": {
-        "typescript": "^5",
+        "typescript": "5.8.3",
       },
     },
   },

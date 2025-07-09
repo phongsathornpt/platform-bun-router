@@ -5,6 +5,11 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "scripts": {
+    "dev": "bun run example/src/main.ts",
+    "build": "tsc",
+    "test": "bun run test.ts"
+  },
   "devDependencies": {
     "@types/bun": "1.2.18"
   },
